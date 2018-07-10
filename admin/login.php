@@ -7,8 +7,7 @@
         // Redireciona o visitante de volta pro login
         header("Location: index.php");
     }
-    
-    require "../config/config.php";
+         
     require "../controllers/RedatoresController.php";
 
     $messageError = false;
